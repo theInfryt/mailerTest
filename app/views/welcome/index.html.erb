@@ -1,0 +1,207 @@
+   <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topnav" href="#">SparrowTV</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                   
+                    <li>
+                        <a href="#services">Servicios</a>
+                    </li>
+                    <li>
+                        <a href="#contact"><b>Tutoriales</b></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Header -->
+    <a name="about"></a>
+    <div class="intro-header">
+        <div class="container">
+          
+            <div class="row">
+                
+                <div class="col-lg-12">
+                    
+                    <div class="intro-message">
+                        <div class="jumbotron" id="jumbo">
+                        <%= image_tag( "sparrow.png", :size => "750x350")%>
+                        <hr class="intro-divider">
+                        <ul class="list-inline intro-social-buttons">
+                           <div class="imagen_logo">
+                                  
+                   
+                            </div>
+                            <li>
+                                <a href="https://www.facebook.com/EntertainmentSparrow" class="btn btn-default btn-lg"><i class="fa fa-facebook" aria-hidden="true"></i> <span class="network-name">Facebook</span></a>
+                            </li>
+                            <li>
+                                <a href="#services" class="btn btn-default btn-lg"> <span class="network-name">Prueba un Mes Gratis</span></a>
+                            </li>
+                           
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.intro-header -->
+<style>
+#jumbo {
+    /* IE8 and below */
+    background: rgb(200, 54, 54);
+    /* all other browsers */
+    background: rgba(200, 54, 54, 0.5); 
+}
+</style>
+
+    <!-- Page Content -->
+
+	<a  name="services"></a>
+    <div class="content-section-a">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Mes Gratis</h2>
+                    <p class="lead">Acceso a nuestra red privada donde podras:<br>Disfrutar de todo el contenido por un mes gratis.</p>
+                     <a href="users/new" class="btn btn-default btn-lg"></i> <span class="network-name">Registrate</span></a>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                   <div class="clearfix"></div>
+                    <h2 class="section-heading">Subscripcion</h2>
+                    <p class="lead">Por una donacion(1) de $100 pesos tendras:<br> Acceso a nuestra red privada donde podras<br>disfrutar de las mas de 3000 peliculas y series que compartimos.<br> Puedes pagar con tarjeta de credito o debito via paypal o si lo prefieres puedes contactarnos para depositar en oxxo al telefono 614-4-71-31-78</p>
+                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="HYXYN9LDS5SHS">
+                    <input type="image" src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                     <%= image_tag( "oxxoLogo.png", :size => "100x75")%>
+                    </form>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="BUZCRJU7N4NK6">
+                    <input type="image" src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+
+                  
+                </div>
+                 
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+ 
+
+    <div class="content-section-a">
+				<a  name="contact"></a>
+			        <div class="container">
+			  <div class="row">
+			    <div class="col-sm-6">
+			   
+			      <h2>Tutorial Crear Cuenta<br></h2>
+			<div class="embed-responsive embed-responsive-16by9">
+			    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/lPTOuFGnhtU"></iframe>
+			</div>
+			    </div>
+			    <div class="col-sm-6">
+			 
+
+			      <h2>Tutorial agregar canal a Roku<br></h2>
+			<div class="embed-responsive embed-responsive-16by9">
+			    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/6oLpL8L9vwM"></iframe>
+			</div>
+			    </div>
+			  </div>
+			</div>
+
+			    <div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+   
+      <h2>Audio y subtitulos<br></h2>
+<div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/wmFmqhqpwWM"></iframe>
+</div>
+    </div>
+    <div class="col-sm-6">
+ 
+
+      <h2>Como usar Plex<br></h2>
+<div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/uVI0uxJApCw"></iframe>
+</div>
+    </div>
+  </div>
+</div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+	
+    <div class="banner">
+
+   
+        <!-- /.container -->
+
+    </div>
+    <!-- /.banner -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#">Inicio</a>
+                        </li>
+                        
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#services">Servicios</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#contact">Tutoriales</a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted small">Copyright &copy; Your Company 2017. All Rights Reserved.1 El dinero de las donaciones se usa para mantener en funcionamiento el sitio y los servidores todo el contenido que compartimos  </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="javascripts/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="javascripts/bootstrap.min.js"></script>
